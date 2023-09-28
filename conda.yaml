@@ -11,4 +11,3 @@ dependencies:
   - truststore=0.7.0              # https://github.com/sethmlarson/truststore/blob/main/CHANGELOG.md
   - pip:
       - rpaframework==27.1.0      # https://rpaframework.org/releasenotes.html
-      - rpaframework-assistant==1.0.5
