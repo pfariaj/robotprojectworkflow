@@ -1,14 +1,10 @@
-# Template: Robot Framework - Minimal
+# Robocor - course robot project workflow
 
-This is the simplest template to start from.
+## Creating a secret in the cloud vault
+The local robot used the file-based secret for the credentials. The robot in the cloud cannot access that file on your computer. You need to provide the credentials in the cloud.
 
-- Get started from a simple task template in `tasks.robot`.
-  - Uses [Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework/basics) syntax.
-- You can configure your robot `robot.yaml`.
-- You can configure dependencies in `conda.yaml`.
-
-## Learning materials
-
-- [Robocorp Developer Training Courses](https://robocorp.com/docs/courses)
-- [Documentation links on Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework)
-- [Example bots in Robocorp Portal](https://robocorp.com/portal)
+- Navigate to Vault and click Add.
+- Enter robotsparebin as the name (the name has to match the secret name in the robot script).
+- Click Add item and enter username as the key and maria as the value.
+- Click Add item and enter password as the key and thoushallnotpass as the value.
+- Click Confirm to create the secret.
